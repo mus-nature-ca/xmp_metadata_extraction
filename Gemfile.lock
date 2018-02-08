@@ -1,0 +1,46 @@
+GIT
+  remote: git@github.com:kueda/xmp.git
+  revision: 5c3e2d9ce2589b631fad1ee1e31eeb6384b2b1e1
+  specs:
+    xmp (0.2.1)
+      nokogiri (~> 1.8.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    byebug (10.0.0)
+    diff-lcs (1.3)
+    exifr (1.3.3)
+    mini_portile2 (2.3.0)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
+    rake (12.3.0)
+    rspec (3.7.0)
+      rspec-core (~> 3.7.0)
+      rspec-expectations (~> 3.7.0)
+      rspec-mocks (~> 3.7.0)
+    rspec-core (3.7.1)
+      rspec-support (~> 3.7.0)
+    rspec-expectations (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-mocks (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-support (3.7.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  exifr
+  rake
+  rspec
+  xmp!
+
+RUBY VERSION
+   ruby 2.2.1p85
+
+BUNDLED WITH
+   1.16.1
